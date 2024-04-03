@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 1.5rem;
+  background-color: #DBAFA0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.counter{
+  color: #704264;
+  font-size: 8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.counter-btn{
+  background-color: #49243E;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+  margin: 0 1rem;
+  margin-bottom: 3rem;  
+}
+
+.counter-btn:active{
+  transform: translate3d(5px, 5px, 5px);
+  box-shadow: none;
+}
+
+.counter-btn:focus{
+  outline: none;
 }
